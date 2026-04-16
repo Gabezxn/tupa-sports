@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-brand-night text-white antialiased;
+}
+
+.gradient-text {
+  background: linear-gradient(105deg, #3b82f6, #60a5fa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-surface {
+  @apply rounded-2xl border border-white/10 bg-white/5 backdrop-blur;
+}
